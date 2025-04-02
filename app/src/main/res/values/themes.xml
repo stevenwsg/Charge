@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Charge" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/background</item>
+        
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        
+        <!-- Material components styling -->
+        <item name="materialCardViewStyle">@style/Widget.Charge.CardView</item>
+        <item name="textInputStyle">@style/Widget.Charge.TextInputLayout</item>
+        <item name="buttonStyle">@style/Widget.Charge.Button</item>
+        <item name="chipStyle">@style/Widget.Charge.Chip</item>
+    </style>
+
+    <style name="Theme.Charge" parent="Base.Theme.Charge" />
+    
+    <!-- Custom CardView style -->
+    <style name="Widget.Charge.CardView" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+    
+    <!-- Custom TextInputLayout style -->
+    <style name="Widget.Charge.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="hintTextColor">@color/primary</item>
+    </style>
+    
+    <!-- Custom Button style -->
+    <style name="Widget.Charge.Button" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+    
+    <!-- Custom Chip style -->
+    <style name="Widget.Charge.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/soft_blue</item>
+        <item name="chipIconTint">@color/primary</item>
+        <item name="chipStrokeColor">@color/primary</item>
+        <item name="chipStrokeWidth">1dp</item>
+    </style>
+</resources>

@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Charge</string>
+    
+    <!-- Home Screen -->
+    <string name="total_expenses">Total Expenses</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="statistics">Statistics</string>
+    <string name="recent_expenses">Recent Expenses</string>
+    <string name="no_expenses">No expenses found</string>
+    <string name="add_your_first_expense">Add your first expense!</string>
+    <string name="filter_by">Filter by</string>
+    <string name="today">Today</string>
+    <string name="this_week">This Week</string>
+    <string name="this_month">This Month</string>
+    <string name="this_year">This Year</string>
+    <string name="custom">Custom</string>
+    
+    <!-- Add/Edit Expense Screen -->
+    <string name="amount">Amount</string>
+    <string name="category">Category</string>
+    <string name="description">Description</string>
+    <string name="date">Date</string>
+    <string name="save">Save</string>
+    <string name="edit_expense">Edit Expense</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_category">Select Category</string>
+    <string name="add_expense_details">Add Expense Details</string>
+    <string name="edit_expense_details">Edit Expense Details</string>
+    <string name="enter_amount">Enter amount</string>
+    <string name="enter_description">Enter description (optional)</string>
+    <string name="expense_added">Expense added successfully</string>
+    <string name="expense_updated">Expense updated successfully</string>
+    
+    <!-- Statistics Screen -->
+    <string name="expenses_by_category">Expenses by Category</string>
+    <string name="expense_trend">Expense Trend</string>
+    <string name="no_data_available">No data available for the selected period</string>
+    <string name="pie_chart">Pie Chart</string>
+    <string name="bar_chart">Bar Chart</string>
+    <string name="line_chart">Line Chart</string>
+    
+    <!-- Detail Screen -->
+    <string name="expense_details">Expense Details</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="confirm_delete">Are you sure you want to delete this expense?</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="expense_deleted">Expense deleted successfully</string>
+    <string name="no_description">No description</string>
+    
+    <!-- Categories -->
+    <string name="category_housing">Housing</string>
+    <string name="category_food">Food</string>
+    <string name="category_transportation">Transportation</string>
+    <string name="category_entertainment">Entertainment</string>
+    <string name="category_shopping">Shopping</string>
+    <string name="category_utilities">Utilities</string>
+    <string name="category_health">Health</string>
+    <string name="category_education">Education</string>
+    <string name="category_travel">Travel</string>
+    <string name="category_others">Others</string>
+</resources>
